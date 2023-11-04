@@ -1,0 +1,5 @@
+#!/bin/bash
+cp /media/sf_Aryan/desktop/Code/stage6.s /home/aryan/Desktop/ARMSim
+cd /home/aryan/Desktop/ARMSim
+gcc gentest.c && ./a.out stage6.s
+cp  /home/aryan/Desktop/ARMSim/mem.vhd /media/sf_Aryan/desktop/Code/mem.vhd
